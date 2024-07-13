@@ -23,3 +23,4 @@ pkg/
 /LATEST
 /lib/unicorn/version.rb
 /*_1
+.idea
