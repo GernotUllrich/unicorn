@@ -11,7 +11,7 @@ end.compact
 
 Gem::Specification.new do |s|
   s.name = %q{unicorn}
-  s.version = (ENV['VERSION'] || '6.1.0').dup
+  s.version = (ENV['VERSION'] || '6.1.0-p1').dup
   s.authors = ['unicorn hackers']
   s.summary = 'Rack HTTP server for fast clients and Unix'
   s.description = File.read('README').split("\n\n")[1]
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
     File.exist?(f)
   end
   s.files = manifest
-  s.homepage = 'https://yhbt.net/unicorn/'
+  s.homepage = 'https://github.com/GernotUllrich/unicorn.git'
   s.test_files = test_files
 
   # 2.0.0 is the minimum supported version. We don't specify
